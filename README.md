@@ -46,4 +46,4 @@ We welcome issues and pull requests! Your contributions and feedback are greatly
 
 ---
 
-[切换到中文文档](README_zh.md)
+[切换到中文文档](README_ZH.md)
