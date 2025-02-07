@@ -1,0 +1,45 @@
+@import './variables.css';
+
+.keyboard-container {
+  @apply mt-32;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.key {
+  @apply bg-gray-800 text-white rounded cursor-pointer select-none
+  transition-all duration-200 hover:bg-gray-700 text-2xl font-bold;
+  min-width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.key.active {
+  @apply bg-blue-600 transform scale-95;
+  box-shadow: 
+    0 0 20px var(--color-primary-light),
+    0 0 40px var(--color-primary-lighter);
+}
+
+.number-key {
+  @apply bg-gray-700;
+  border-top: 3px solid var(--color-primary-lighter);
+}
+
+.number-key:hover {
+  @apply bg-gray-600;
+}
+
+.number-key.active {
+  @apply bg-blue-500;
+  box-shadow:
+    0 0 20px var(--color-primary-light),
+    0 0 40px var(--color-primary-lighter),
+    0 -5px 15px var(--color-primary-light);
+}

@@ -1,0 +1,15 @@
+:root {
+  /* Colors */
+  --color-primary: rgb(59, 130, 246);
+  --color-primary-light: rgba(59, 130, 246, 0.7);
+  --color-primary-lighter: rgba(59, 130, 246, 0.4);
+  
+  /* Backgrounds */
+  --bg-dark: #111827;  /* gray-900 */
+  --bg-key: #1F2937;   /* gray-800 */
+  --bg-key-hover: #374151; /* gray-700 */
+  
+  /* Animations */
+  --transition-speed: 200ms;
+  --ripple-size: 150%;
+}
