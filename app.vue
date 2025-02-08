@@ -5,31 +5,41 @@ import {
   CHINESE_NUMBERS
 } from '~/constants/keyboard'
 
+const title = 'Alphabet & Pinyin: abc123 Voice'
+const description = 'Learning Tool for English Alphabet and Chinese Pinyin'
+const previewImage = '/images/abc123-voice-preview.png'
+const keywords =
+  'alphabet, pinyin, learning tool, children education, English pronunciation, Chinese pronunciation, abc123 voice, learn English Alphabet, learn Chinese Pinyin'
+
 // page head
 useHead({
-  title: computed(() => 'Alphabet & Pinyin: abc123 Voice'),
+  title,
   meta: [
     {
       name: 'keywords',
-      content:
-        'alphabet, pinyin, learning tool, english, chinese, chinese pinyin'
+      content: keywords
     },
     {
       name: 'description',
-      content: computed(
-        () => 'Learning Tool for English Alphabet and Chinese Pinyin'
-      )
-    }
+      content: description
+    },
+    { property: 'og:title', content: title },
+    {
+      property: 'og:description',
+      content: description
+    },
+    { property: 'og:image', content: previewImage },
+    { property: 'og:url', content: 'https://abc123-voice.vercel.app' }
   ]
 })
 
 // seo meta
 useSeoMeta({
-  title: 'Alphabet & Pinyin: abc123 Voice',
-  ogTitle: 'Alphabet & Pinyin: abc123 Voice Language Learning Tool',
-  description: 'Learning Tool for English Alphabet and Chinese Pinyin',
-  ogDescription: 'Learning Tool for English Alphabet and Chinese Pinyin',
-  ogImage: '/images/abc123-voice-preview.png',
+  title,
+  ogTitle: title,
+  description,
+  ogDescription: description,
+  ogImage: previewImage,
   twitterCard: 'summary_large_image'
 })
 

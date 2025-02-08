@@ -37,7 +37,7 @@ export default defineNuxtConfig({
           hid: 'keywords',
           name: 'keywords',
           content:
-            'alphabet, pinyin, learning tool, children education, English pronunciation, Chinese pronunciation'
+            'alphabet, pinyin, learning tool, children education, English pronunciation, Chinese pronunciation, abc123 voice, learn English Alphabet, learn Chinese Pinyin'
         },
         // Open Graph / Facebook
         { property: 'og:type', content: 'website' },
