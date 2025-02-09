@@ -2,7 +2,14 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/seo'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/seo', 'nuxt-gtag'],
+  gtag: {
+    enabled: process.env.NODE_ENV === 'production',
+    id: process.env.NUXT_PUBLIC_GTAG_ID,
+    config: {
+      page_title: 'Alphabet & PinYin: abc123 Voice'
+    }
+  },
   tailwindcss: {
     exposeConfig: true,
     viewer: true
