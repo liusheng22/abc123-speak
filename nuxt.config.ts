@@ -64,7 +64,8 @@ export default defineNuxtConfig({
           content:
             'A fun and interactive tool for children to learn English letters and Chinese Pinyin pronunciation.'
         },
-        { name: 'twitter:image', content: '/images/abc123-voice-preview.jpg' }
+        { name: 'twitter:image', content: '/images/abc123-voice-preview.jpg' },
+        { property: 'fb:app_id', content: '1834995893984907' }
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
