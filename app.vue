@@ -111,6 +111,9 @@ const playSound = (key: string) => {
           {{ voice.name }}
         </option>
       </select>
+
+      <!-- github link -->
+      <GitHubLink />
     </div>
 
     <!-- keyboard layout -->
