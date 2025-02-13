@@ -7,6 +7,11 @@
 - Children aged 3-8 who are learning English and Chinese Pinyin
 - Preschoolers who need to practice the pronunciation of letters, numbers, and Pinyin
 
+
+## Live Demo
+
+🎵 [Musical Keyboard Live Demo](https://music-keys.vercel.app/)
+
 ## 🌟 Core Features
 
 - Standard English letter pronunciation

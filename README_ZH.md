@@ -7,6 +7,10 @@
 - 3-8岁正在学习英文字母和汉语拼音的小朋友
 - 需要练习英文字母、数字和拼音发音的学龄前儿童
 
+## 在线演示
+
+[https://music-keys.vercel.app/](https://music-keys.vercel.app/)
+
 ## 🌟 核心功能
 
 - 标准的英文字母发音
