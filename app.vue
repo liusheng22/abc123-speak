@@ -5,11 +5,12 @@ import {
   CHINESE_NUMBERS
 } from '~/constants/keyboard'
 
-const title = 'Alphabet & Pinyin: abc123 Voice'
-const description = 'Learning Tool for English Alphabet and Chinese Pinyin'
+const title = 'Letters & Pinyin: abc123 Voice'
+const description =
+  'Just by pressing the keyboard, you can help your child learn the correct pronunciation of English letters and Chinese pinyin, including the pronunciation of numbers.'
 const previewImage = '/images/abc123-voice-preview.png'
 const keywords =
-  'alphabet, pinyin, learning tool, children education, English pronunciation, Chinese pronunciation, abc123 voice, learn English Alphabet, learn Chinese Pinyin'
+  'English letters, Chinese pinyin, letters, alphabet, pinyin, learning tool, children education, English pronunciation, Chinese pronunciation, abc123 voice, abc123-voice, abc123 learning, learn abc, learn abc123, learn English Alphabet, learn Chinese Pinyin'
 
 // page head
 useHead({
@@ -78,6 +79,14 @@ const playSound = (key: string) => {
   }
   window.speechSynthesis.speak(speech)
 }
+
+const keyText = (key: string) => {
+  if (selectedLanguage.value === 'zh') {
+    return key.toLowerCase()
+  } else {
+    return key.toUpperCase()
+  }
+}
 </script>
 
 <template>
@@ -133,7 +142,7 @@ const playSound = (key: string) => {
           ]"
           @click="handleKeyClick(key)"
         >
-          {{ key }}
+          {{ keyText(key) }}
         </div>
       </div>
     </div>
