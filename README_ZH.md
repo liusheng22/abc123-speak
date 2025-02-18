@@ -1,15 +1,15 @@
-# Alphabet & PinYin: abc123 Voice - 英文字母&汉语拼音发音学习工具 🎯
+# Letters & PinYin: abc123 Voice - 英文字母&汉语拼音发音学习工具 🎯
 
-**Alphabet & PinYin: abc123 Voice** 是一款专为儿童设计的语言学习工具，通过互动键盘和标准发音，帮助孩子轻松掌握英文字母、数字及汉语拼音的读音。
+**Letters & PinYin: abc123 Voice** 是一款专为儿童设计的语言学习工具，通过互动键盘和标准发音，帮助孩子轻松掌握英文字母、数字及汉语拼音的读音。
 
 ## 👶 适用人群
 
 - 3-8岁正在学习英文字母和汉语拼音的小朋友
 - 需要练习英文字母、数字和拼音发音的学龄前儿童
 
-## 在线演示
+## ⌨️ 在线演示
 
-[https://abc123-voice.vercel.app/](https://abc123-voice.vercel.app/)
+🔗 [https://abc123-voice.vercel.app/](https://abc123-voice.vercel.app/)
 
 ## 🌟 核心功能
 
