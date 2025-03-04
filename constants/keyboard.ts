@@ -10,7 +10,7 @@ export const LANGUAGE_OPTIONS: LanguageOption[] = [
   { label: '中文', value: 'zh' }
 ]
 
-export const CHINESE_NUMBERS = {
+export const CHINESE_NUMBERS: Record<string, string> = {
   '0': '零',
   '1': '一',
   '2': '二',
