@@ -2,8 +2,8 @@ export const useVoiceSynthesis = () => {
   const { detectBrowserLanguage } = useLanguageDetection()
 
   const voices = ref<Voice[]>([])
-  const selectedLanguage = ref<'en' | 'zh'>(detectBrowserLanguage())
-  const selectedVoice = ref<string>('')
+  const selectedLanguage = ref<string>(detectBrowserLanguage())
+  const selectedVoice = ref<string | null>('')
 
   // available voices
   const availableVoices = computed(() => {
@@ -28,14 +28,14 @@ export const useVoiceSynthesis = () => {
         voice.lang.startsWith(selectedLanguage.value)
       )
       if (defaultVoice) {
-        selectedVoice.value = defaultVoice.voiceURI
+        selectedVoice.value = defaultVoice.voiceURI || ''
       }
     }
   }
 
   watchEffect(() => {
     const [defaultOpt] = availableVoices.value
-    selectedVoice.value = defaultOpt?.voiceURI
+    selectedVoice.value = defaultOpt?.voiceURI || ''
   })
 
   // preload voices

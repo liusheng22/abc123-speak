@@ -6,5 +6,5 @@ interface Voice extends SpeechSynthesisVoice {
 
 interface LanguageOption {
   label: string
-  value: 'en' | 'zh'
+  value: string
 }

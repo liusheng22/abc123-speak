@@ -1,22 +1,27 @@
-# Letters & PinYin: abc123 Voice - Learning Tool for English Letters and Chinese Pinyin 🎯
+# ABC123 Speak - Fun LearningLearning Tool for Toddlers 🎯
 
-**Letters & PinYin: abc123 Voice** Just by pressing the keyboard, you can help your child learn the correct pronunciation of English letters and Chinese pinyin, including the pronunciation of numbers.
+**ABC123 Speak** is a language learning tool designed for children, helping them master the pronunciation of letters and numbers through interactive keyboard and standard human voice.
 
-## 👶 Target Users
+## 📸 Preview
 
-- Children aged 3-8 who are learning English and Chinese Pinyin
-- Preschoolers who need to practice the pronunciation of letters, numbers, and Pinyin
-
+<p align="center">
+  <img src="public/images/md-preview_en.jpg" alt="ABC123 Speak Preview" width="600">
+</p>
 
 ## ⌨️ Live Demo
 
-🔗 [English letters and Chinese pinyin Live Demo](https://abc123-voice.vercel.app/)
+🔗 [Start Learning Now](https://abc123speak.vercel.app/)
+
+## 👶 Target Users
+
+- Children aged 3-6 learning alphabet and numbers in their native language
+- Kids who love to tap, hit, and grab keyboards
 
 ## 🌟 Core Features
 
-- Standard English letter pronunciation
+- Support for alphabet and number pronunciation in 12 languages
+- Real and standard human voice pronunciation
 - Standard Chinese Pinyin pronunciation
-- Bilingual number pronunciation (English/Chinese)
 - Multiple voice style options
 - Interactive keyboard with animated key presses
 - Automatic browser language detection
@@ -36,14 +41,13 @@
 
 ## 📝 Usage Guide
 
-1. Open the webpage and ensure your device's sound is on.
-2. Select your preferred voice style.
-3. Learn letters, numbers, and Pinyin through keyboard input or mouse clicks.
-4. Toggle between English and Chinese number pronunciation.
+1. Open the webpage and ensure your device's sound is on
+2. Select your preferred language and voice style
+3. Learn through keyboard input or button clicks
 
 ## 🤝 Contributing
 
-We welcome issues and pull requests! Your contributions and feedback are greatly appreciated.
+We welcome [Issues](https://github.com/liusheng22/abc123-speak/issues) and [Pull Requests](https://github.com/liusheng22/abc123-speak/pulls)! Your contributions and feedback are greatly appreciated.
 
 ## 📄 License
 

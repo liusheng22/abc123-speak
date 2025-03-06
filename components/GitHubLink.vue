@@ -1,12 +1,12 @@
 <template>
   <a
-    href="https://github.com/liusheng22/abc123-voice"
+    href="https://github.com/liusheng22/abc123-speak"
     target="_blank"
-    class="bg-gray-800 text-white p-2 rounded"
+    class="bg-gray-800 text-white p-2 rounded hover:opacity-90"
   >
     <svg
       t="1739158378954"
-      class="icon"
+      class="icon cursor-pointer"
       viewBox="0 0 1024 1024"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"

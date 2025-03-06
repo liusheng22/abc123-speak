@@ -15,5 +15,6 @@
     "jsonc",
     "json5",
     "yaml"
-  ]
+  ],
+  "cSpell.words": ["Nuxt"]
 }
