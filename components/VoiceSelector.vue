@@ -16,7 +16,11 @@ const selectedVoice = computed({
 
 <template>
   <!-- voice select -->
-  <select v-model="selectedVoice" class="bg-gray-800 text-white p-2 rounded">
+  <select
+    v-model="selectedVoice"
+    aria-label="Voice Selector"
+    class="bg-gray-800 text-white p-2 rounded"
+  >
     <option
       v-for="voice in availableVoices"
       :key="voice.voiceURI"

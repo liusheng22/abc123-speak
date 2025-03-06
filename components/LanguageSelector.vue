@@ -16,7 +16,11 @@ const selectedLanguage = computed({
 
 <template>
   <!-- language select -->
-  <select v-model="selectedLanguage" class="bg-gray-800 text-white p-2 rounded">
+  <select
+    v-model="selectedLanguage"
+    aria-label="Language Selector"
+    class="bg-gray-800 text-white p-2 rounded"
+  >
     <option
       v-for="lang in LANGUAGE_OPTIONS"
       :key="lang.value"

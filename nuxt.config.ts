@@ -106,7 +106,7 @@ export default defineNuxtConfig({
       { code: 'ms', iso: 'ms-MY', file: 'ms.json', name: 'Bahasa Melayu' }
     ],
     defaultLocale: 'en',
-    strategy: 'prefix_except_default',
+    strategy: 'prefix_and_default',
     detectBrowserLanguage: {
       useCookie: false,
       cookieKey: 'i18n_redirected',

@@ -2,6 +2,7 @@
   <a
     href="https://github.com/liusheng22/abc123-speak"
     target="_blank"
+    aria-label="GitHub Link for abc123-speak"
     class="bg-gray-800 text-white p-2 rounded hover:opacity-90"
   >
     <svg
